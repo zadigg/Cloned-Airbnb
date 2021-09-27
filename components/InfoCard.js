@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function InfoCard({ img, title, desc, total, star, price, location }) {
   return (
-    <div className="flex py-7 px-2 border-b cursor-pointer hover:opacity-80 hover:shadow-lg transition duration-200 ease-out first:border-t ">
+    <div className="flex py-7 px-2 border-b cursor-pointer hover:opacity-80 hover:shadow-lg transition duration-200 ease-out first:border-t hover:animate-pulse ">
       <div className="relative h-24 w-40 md:h-52 md:w-80 flex-shrink-0">
         <Image
           className="rounded-3xl"

@@ -104,11 +104,17 @@ function Header({ placeholder }) {
               className="w-12 pl-2 text-lg outline-none text-red-400"
             />
           </div>
-          <div className="flex flex-grow">
-            <button onClick={resetInput} className="flex-grow text-gray-500 ">
+          <div className="flex flex-grow shadow-sm ">
+            <button
+              onClick={resetInput}
+              className="flex-grow text-gray-500 rounded-md py-1 hover:bg-red-500 hover:text-white "
+            >
               Cancel
             </button>
-            <button onClick={search} className="flex-grow text-red-500">
+            <button
+              onClick={search}
+              className="flex-grow text-red-500 rounded-md py-1 hover:bg-red-500 hover:text-white"
+            >
               Search
             </button>
           </div>
